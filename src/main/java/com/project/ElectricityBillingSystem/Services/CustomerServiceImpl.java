@@ -151,7 +151,7 @@ public class CustomerServiceImpl implements CustomerServices {
 	@Override
 	public CustDto updateCustDtoById(int id, @Valid CustDto custDto) {
 		LOGGER.error("inside updateCustDtoById method");
-		return null;
+		return custDto;
 	}
 
 	
